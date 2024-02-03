@@ -2,7 +2,8 @@
 
 To create the database simply clone this repository and do these command:
 1. `git clone git@github.com:projets-fin-bac-24/database-setup.git` or `git clone https://github.com/projets-fin-bac-24/database-setup.git`
-2. Run this in a terminal: `docker compose -f .\db-compose.yml up -d`
+2. Copy `.env.template` into `.env` and modify the values according to your need. (Keep in mind theses values will be used to create the DB and will be needed to connect to the DB).
+3. Run this in a terminal: `docker compose -f .\db-compose.yml up -d`
 
 And that's it, you have a database running on your machine! This will look a bit like this:
 ![Docker look into database](image.png)
