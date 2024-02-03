@@ -1,0 +1,15 @@
+version: '3.9'
+services:
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8090:8080
+  db:
+    image: postgres
+    restart: always
+    ports:
+      - 5432:5432
+    env_file:
+      - .env
+  
