@@ -21,7 +21,7 @@ User ID=$POSTGRES_USER;Password=$POSTGRES_PASSWORD;Host=host.docker.internal;Por
 
 To access the adminer, navigate to `localhost:8090` and use the following credentials:
 - System: `PostgreSQL`
-- Server: `docker.host.internal`
+- Server: `host.docker.internal`
 - Username: `$POSTGRES_USER`
 - Password: `$POSTGRES_PASSWORD`
 - Database: `$POSTGRES_DB`
