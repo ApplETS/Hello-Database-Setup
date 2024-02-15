@@ -3,7 +3,7 @@
 To create the database simply clone this repository and do these command:
 1. Clone the repo and navigate in a terminal to the directory.
 2. Copy `.env.template` into `.env` and modify the values according to your need. (Keep in mind theses values will be used to create the DB and will be needed to connect to the DB). You can keep the default values for a local development setup. 
-4. Run this in a terminal: `docker compose -f .\bd-compose.yml up -d`
+4. Run this in a terminal: `docker compose up -d`
 
 And that's it, you have a database running on your machine! This will look a bit like this:
 ![Docker look into database](image.png)
